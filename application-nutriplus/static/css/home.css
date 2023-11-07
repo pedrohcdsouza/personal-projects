@@ -1,0 +1,56 @@
+@charset "UFT-8";
+
+body{
+    background-color: blue;
+}
+
+div#form_fundo{
+    background-color: aquamarine;
+    margin: 10% 25% 25% 25%;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: 2px 5px 5px black;
+}
+
+div#form_frente{
+    background-color: rgb(0, 183, 255);
+    margin: 5px; 
+    text-align: center;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: 2px 5px 5px black;
+    padding: 30px;
+
+}
+
+label{
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+input{
+    border-radius: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+input:focus{
+    background-color: white;
+    color:black;
+}
+
+button{
+    font-size: 50px;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: black;
+    color: aliceblue;
+}
+
+button:hover{
+    background-color: aliceblue;
+    color:black;
+    font-size: 40px;
+}
