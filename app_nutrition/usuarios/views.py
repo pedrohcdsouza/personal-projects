@@ -1,5 +1,5 @@
 from django.shortcuts import render
 
 def cadastro(request):
-    return 
+    return render(request, 'cadastro.html')
 
